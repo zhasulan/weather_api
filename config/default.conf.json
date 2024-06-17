@@ -1,0 +1,27 @@
+{
+  "app": {
+    "name": "weather_api",
+    "port": "6600",
+    "is_development": false,
+    "log_level": "info",
+    "version": "0.0.1"
+  },
+  "db": {
+    "host": "localhost",
+    "port": "5432",
+    "user": "-",
+    "pass": "-",
+    "name": "-",
+    "scheme": "-",
+    "connections": {
+      "max_open": 5,
+      "max_idle": 5,
+      "max_recon": 10
+    }
+  },
+  "weather_api": {
+    "host_url": "https://api.weatherapi.com",
+    "key": "",
+    "timeout": 30
+  }
+}
